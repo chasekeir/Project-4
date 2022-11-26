@@ -230,7 +230,7 @@ while True:
         # FIXME (task 5): select a new submission for the next iteration;
         # your newly selected submission should be randomly selected from the 5 hottest submissions
 
-        submission_list=list(reddit.subreddit('cs40_2022fall').hot(limit=None))
+        submission_list=list(reddit.subreddit('cs40_2022fall').hot(limit=5))
         submission=random.choice(submission_list)
 
         # We sleep just for 1 second at the end of the while loop.
