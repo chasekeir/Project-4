@@ -210,6 +210,7 @@ while True:
             #    random_comment.reply(body=generate_comment())
             #except Exception as e:
             #    print(e)
+            '''
             if len(comments_without_replies)>0:
                 try:
                     random_comment = random.choice(comments_without_replies)
@@ -219,6 +220,14 @@ while True:
                     print('reply to a comment')
                 except Exception as e:
                     print(e)
+            '''
+
+            if len(comments_without_replies)>0:
+                random_comment = random.choice(comments_without_replies)
+                text = generate_comment()
+                random_comment.reply(body=text)
+                #random_comment.reply(body=generate_comment())
+                print('reply to a comment')
                 
             #
             # HINT:

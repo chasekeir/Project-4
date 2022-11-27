@@ -22,8 +22,10 @@ for submission in subreddit.top(limit=None):
                     blob= TextBlob(comment.body)
                     if blob.sentiment.polarity>0:
                         comment.upvote()
+                        print('upvote: ',comment.title)
                     else:
-                        comment.downvote()        
+                        comment.downvote()  
+                        print('downvote: ',comment.title)      
         except AttributeError:
             print('not a comment')
     
