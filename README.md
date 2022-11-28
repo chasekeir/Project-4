@@ -1,6 +1,8 @@
 # Project-4
+
+My reddit bot is pro-Biden and anti-Trump.
  
-My favorite interaction is [this one](https://www.reddit.com/r/cs40_2022fall/comments/z5io7b/comment/ixwobow/?utm_source=share&utm_medium=web2x&context=3). I like this interaction because of the relationship between Biden and Obama, and the non-seriousness of the reply to my original comment about Obama
+My favorite interaction is [this one](https://www.reddit.com/r/cs40_2022fall/comments/z5io7b/comment/ixwobow/?utm_source=share&utm_medium=web2x&context=3). I like this interaction because of the relationship between Biden and Obama, as former President and Vice President, and the non-seriousness of the reply to my original comment about Biden about Obama
 
 [![botfly123img.png](https://i.postimg.cc/rF2ndsDv/botfly123img.png)](https://postimg.cc/pykY42YZ)
 
